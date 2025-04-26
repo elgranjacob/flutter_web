@@ -1,15 +1,38 @@
-class Recentwork {
+class RecentWork {
   final String image, category, title;
   final int id;
 
-  Recentwork({required this.id, required this.category, required this.image, required this.title});
+  RecentWork(
+      {required this.id,
+      required this.image,
+      required this.category,
+      required this.title});
 }
 
-//Demo list of my works
-
-List<Recentwork> recentWorks = [
-  Recentwork(id: 1, category: "Graphics Design", image: "", title: "New & Fresh Looking Portafolio indeed at the end"),
-  Recentwork(id: 2, category: "Graphics Design", image: "", title: "New & Fresh Looking Portafolio indeed at the end"),
-  Recentwork(id: 3, category: "Graphics Design", image: "", title: "New & Fresh Looking Portafolio indeed at the end"),
-  Recentwork(id: 4, category: "Graphics Design", image: "", title: "New & Fresh Looking Portafolio indeed at the end"),
+// Demo List of my works
+List<RecentWork> recentWorks = [
+  RecentWork(
+    id: 1,
+    title: "New & Fresh Looking Portfolio indeed at the end",
+    category: "Graphic Design",
+    image: "assets/images/work_1.png",
+  ),
+  RecentWork(
+    id: 2,
+    title: "New & Fresh Looking Portfolio indeed at the end",
+    category: "Graphic Design",
+    image: "assets/images/work_2.png",
+  ),
+  RecentWork(
+    id: 3,
+    title: "New & Fresh Looking Portfolio indeed at the end",
+    category: "Graphic Design",
+    image: "assets/images/work_3.png",
+  ),
+  RecentWork(
+    id: 4,
+    title: "New & Fresh Looking Portfolio indeed at the end",
+    category: "Graphic Design",
+    image: "assets/images/work_4.png",
+  ),
 ];

@@ -8,10 +8,30 @@ class Feedback {
   Feedback({required this.name, required this.review, required this.userPic, required this.id, required this.color});
 }
 
-List<Feedback> feedback = [
-  Feedback(name: 'Ronald Thompson', review: review, userPic: "", id: 1, color: Color(0xFFFFF3DD)),
-  Feedback(name: 'Ronald Thompson', review: review, userPic: "", id: 2, color: Color(0xFFD9FFFC)),
-  Feedback(name: 'Ronald Thompson', review: review, userPic: "", id: 3, color: Color(0xFFFFE0E0))
+// List of demo feedbacks
+List<Feedback> feedbacks = [
+  Feedback(
+    id: 1,
+    name: "Ronald Thompson",
+    review: review,
+    userPic: "assets/images/people.png",
+    color: Color(0xFFFFF3DD),
+  ),
+  Feedback(
+    id: 2,
+    name: "Ronald Thompson",
+    review: review,
+    userPic: "assets/images/people.png",
+    color: Color(0xFFD9FFFC),
+  ),
+  Feedback(
+    id: 3,
+    name: "Ronald Thompson",
+    review: review,
+    userPic: "assets/images/people.png",
+    color: Color(0xFFFFE0E0),
+  ),
 ];
 
-String review = "haoihsinhoihoihaoiasi";
+String review =
+    'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore mag aliqua enim ad minim veniam.';
