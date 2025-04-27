@@ -17,7 +17,7 @@ class DefaultButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextButton(
       style: TextButton.styleFrom(
-        foregroundColor: Color(0xFFE8F0F9),
+        foregroundColor: Color(0xFFDAE8F9),
         padding: EdgeInsets.symmetric(
           vertical: kDefaultPadding,
           horizontal: kDefaultPadding * 2.5,
