@@ -1,16 +1,26 @@
-# flutter_web
+# Portafolio Web en Flutter
 
-A new Flutter project.
+Página de portafolio personal construida con **Flutter Web**, como práctica de diseño de interfaces y maquetación por componentes.
 
-## Getting Started
+## Secciones
+- Portada con efecto *glassmorphism* y menú.
+- Acerca de mí y tarjeta de experiencia.
+- Servicios.
+- Trabajos recientes.
+- Testimonios.
+- Contacto con redes sociales.
 
-This project is a starting point for a Flutter application.
+## Estructura
+- `lib/sections/` — una carpeta por sección de la página, cada una con sus propios componentes.
+- `lib/components/` — botones y títulos reutilizables.
+- `lib/models/` — datos de servicios, trabajos y testimonios.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologías
+Flutter Web · Dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Ejecutar
+```bash
+flutter pub get
+flutter run -d chrome
+```
+> Los textos son de ejemplo (*placeholder*); el objetivo del proyecto es la estructura y el diseño.
